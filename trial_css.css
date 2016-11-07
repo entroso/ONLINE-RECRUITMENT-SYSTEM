@@ -1,0 +1,84 @@
+body
+{
+  background-image : url("High-Quality-Office-Wallpapers-980x613.jpg");	
+}
+.key
+{
+  display : block;
+  position : relative;
+	align : right;
+  text-decoration : none;
+  font-size : 18;
+  font-weight : bold;
+  text-align : center;
+  text-valign : center;
+  color : black;
+  background-color : red;
+  left : 550px;
+  height : 8%;
+  width : 10%;
+  opacity : 0.85;
+}
+.key:active
+{
+  background-color : blue;
+  opacity : 1.0;
+}
+.key:hover
+{
+  opacity : 1.0;
+}
+form
+{
+	top : 100px;
+	left : 500px;
+	width : 20%;
+	background-color : silver;
+}
+h1
+{
+	position :absolute;
+	text-align : center;
+	margin : 0px;
+	padding : 0px;
+	top :0px;
+	width :100%;
+	left : 0px;
+	color : yellow;
+	background-color : black;
+	opacity : 0.9;
+}
+ul {
+	position : absolute;
+	top :0px;
+	left : 0px;
+	width : 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 11px 12px;
+	font-size : 15px;
+	height :100%;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+img
+{
+	width : 100%;
+}
