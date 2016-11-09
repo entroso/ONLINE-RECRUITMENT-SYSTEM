@@ -59,7 +59,7 @@ Company's home page
 		$job=$_POST['job_description'];
 		$date = date('Y-m-d H:i:s');
 		$sql="INSERT INTO notification(job_description,start_date) VALUES('$job','$date')";
-		if($conn->query($sql)===TRUE)
+		if($conn->query($sql)==TRUE)
 		{		
 			$cid=$_SESSION['username'];
 			$last_id=$conn->insert_id;
